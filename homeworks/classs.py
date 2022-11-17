@@ -6,11 +6,7 @@ class Hero:
 
 class Hero_Super(Hero):
     def __str__(self):
-        return f'{self.nickname}'
+        self.nickname = str
 
     def pr(self):
         print(f'{self.nickname} it is super_hero')
-
-
-hero1 = Hero_Super("Morph")
-hero1.pr()

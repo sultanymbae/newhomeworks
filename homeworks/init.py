@@ -7,3 +7,4 @@ from classs import Hero_Super
 
 hero2 = Hero_Super("Roger")
 hero2.pr()
+
